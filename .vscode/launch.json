@@ -1,0 +1,45 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "validate-oddometer-reading ",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "validate-oddometer-reading  (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "validate-oddometer-reading  (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "odometer_scanner",
+            "cwd": "packages/odometer_scanner",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "odometer_scanner (profile mode)",
+            "cwd": "packages/odometer_scanner",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "odometer_scanner (release mode)",
+            "cwd": "packages/odometer_scanner",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
